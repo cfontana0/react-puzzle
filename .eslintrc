@@ -1,0 +1,18 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise"
+    ],
+    "globals": {
+        "URL": true,
+        "fetch": true,
+        "Headers": true,
+        "Request": true,
+        "XMLHttpRequest": true,
+        "FormData": true
+    },
+    "rules": {
+        "no-console": 1
+    }
+}
